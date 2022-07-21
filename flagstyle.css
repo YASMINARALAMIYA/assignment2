@@ -1,0 +1,212 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+.body{
+    font-family: 'Poppins', sans-serif;
+}
+
+
+.container{
+    width: 1321px;
+    height: 646px;
+    background: #161616;
+    border-radius: 30px;
+    width: 1321px;
+    height: 646px;
+    justify-content: center;
+    align-content: center;
+    display: flex;
+    grid-template-columns: repeat(2,1fr);
+    grid-column-gap:24px;
+}
+
+.image{
+    width: 581px;
+    height: 613px;
+    margin-top: 33px;
+    margin-right: 79px;
+}
+
+.title-text{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 70px;
+    line-height: 80px;
+    color: #FFFFFF;
+    margin-left: 106px;
+    margin-top: 111px;
+    justify-content: center;
+}
+
+.title-paragraph{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    color: #FFFFFF;
+    margin-left: 106px;
+    margin-top: 20px;
+}
+
+/* watch button */
+.watch-button{
+    background: #DD0000;
+    border: 0;
+    border-radius: 5px;
+    width: 187px;
+    height: 56px;
+    margin-left: 106px;
+    margin-top: 30px;
+    color: #FFFFFF;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 23px;
+    text-align: center;
+
+}
+
+/* section two */
+
+/* left side */
+.flag-sec{
+    margin-top: 130px;
+    display: flex;
+    grid-gap: 24px;
+}
+
+.sidebar {
+    background: #161616;
+    border-radius: 10px;
+    width: 312px;
+    height: 312px;
+    display: inline-grid;
+    padding: 30px;
+    justify-content: center;
+    
+}
+
+.upcoming-button{
+    background: #FFFFFF;
+    border-radius: 10px;
+    border: 0;
+    width: 252px;
+    height: 64px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+}
+
+.group-button{
+    background: #FFFFFF;
+    border-radius: 10px;
+    border: 0;
+    width: 252px;
+    height: 64px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+}
+
+.blog-button{
+    background-color: #DD0000;
+    border-radius: 10px;
+    border: 0;
+    width: 252px;
+    height: 64px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    color: #FFFFFF;
+}
+
+
+/* right column flags*/
+.flag-sec{
+    margin-top: 130px;
+    display: flex;
+    background-color: #FFFFFF;
+}
+
+.right-flag-items{
+    margin-left: 24px;
+    display: flex;
+    flex-wrap:wrap;
+    column-gap: 24px;
+    row-gap: 24px;
+    grid-template-columns: repeat(1,3fr);
+}
+
+.flags{
+    display: flex;
+    width: 252px;
+    height: 56.18px;
+}
+
+.vs{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    margin: 10px;   
+    display: block;
+}
+.flag-title{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    display: block;
+}
+
+.sports-details{
+    margin-left: 10%;
+}
+
+.box{
+    display: grid;
+    border:2px #161616;
+    width: 312px;
+    height: 242px;
+    
+}
+
+
+/* footer start */
+
+.goal{
+    margin-top: 130px;
+    display: grid;
+    background: #161616;
+    color: #FFFFFF;
+    justify-content: center;
+}
+
+.f-border{
+    border: 1px solid rgba(255, 255, 255, 0.1);s
+}
+.f-title{
+    margin-top: 130px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 40px;
+    justify-content: center;
+    display: flex;
+}
+
+.footer-items{
+    display: flex;
+    column-gap: 30px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    color: #B9B9B9;
+    margin-top: 50px;
+    margin-bottom: 130px;
+}
